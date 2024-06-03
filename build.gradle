@@ -71,7 +71,7 @@ publishing {
 	repositories {
 		maven {
 			name = "nexus"
-			url = uri("https://repo.teon.llc/repository/maven/")
+			url = uri("https://repo.teon.llc/repository/maven-snapshots/")
 
 			credentials {
 				username = findProperty("nexusUsername") ?: System.getenv("NEXUS_USERNAME")
