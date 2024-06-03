@@ -60,7 +60,7 @@ artifacts {
 
 group = "com.ecwid.consul"
 archivesBaseName = "consul-api"
-version = "1.4.5-irrl"
+version = "1.4.5c-SNAPSHOT"
 
 publishing {
 	publications {
